@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(40deg, blue, gray);
+
+}
+
+.login{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    
+    padding: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    color: brown;
+    font-size: 25px;
+}
+
+input{
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+button{
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    color: brown;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: rgb(196, 127, 127);
+}
+
+h2{
+ text-align: center;
+ opacity: 0.8;
+}
